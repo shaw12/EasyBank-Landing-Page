@@ -112,6 +112,7 @@ a{
     height: 70vh !important;
     margin-top: 120px !important;
     z-index: 0;    
+    margin-bottom: 40px !important;
 }
 
 .markup img{  

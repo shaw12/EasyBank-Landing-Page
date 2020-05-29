@@ -1,0 +1,340 @@
+body{
+    font-family: 'Public Sans', sans-serif;
+    background-color:  hsl(0, 0%, 98%);
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+#navbar{
+    background-color: #ffffff;
+    z-index: 1000;
+}
+
+#navlist li a{
+    color: gray;
+}
+
+
+.animated-icon2{
+    width: 30px;
+    height: 20px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer; 
+    
+}
+
+.animated-icon2 span {
+    background: hsl(233, 8%, 62%);
+    border: none;
+}
+
+.animated-icon2 span{
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 9px;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+    border: hidden;
+}
+.animated-icon2 span:nth-child(1) {
+    top: 0px;
+    color: hsl(233, 8%, 62%);
+}
+
+.animated-icon2 span:nth-child(2), .animated-icon2 span:nth-child(3) {
+    top: 10px;
+    color: hsl(233, 8%, 62%);
+}
+
+.animated-icon2 span:nth-child(4) {
+    top: 20px;
+    color: hsl(233, 8%, 62%);
+}
+
+.animated-icon2.open span:nth-child(1) {
+    top: 11px;
+    width: 0%;
+    left: 50%;
+    color: hsl(233, 8%, 62%);
+    border: none;
+}
+
+.animated-icon2.open span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    color: hsl(233, 8%, 62%);
+}
+
+.animated-icon2.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.animated-icon2.open span:nth-child(4) {
+    top: 11px;
+    width: 0%;
+    left: 50%;
+}
+
+
+
+
+
+
+#content{
+    left: 8%;   
+    height: 70vh !important;
+    margin-top: 120px !important;
+    z-index: 0;    
+}
+
+.markup img{  
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    right: -7%;
+    background: url("./images/bg-intro-desktop.svg") no-repeat;
+    background-size: cover;
+    background-position: -100px -80px;
+    z-index: 20;
+}
+
+#choose{
+    position: relative;
+    margin-top: -100px;
+}
+
+#card-group{
+    margin: 40px 0px;
+}
+#cardx{
+    background-color: rgb(233, 236, 236);
+    border: none;
+}
+#cardx img{
+    width: 70px;
+    height: 70px;
+}
+.card-text{
+    font-size: 14px;
+    color: hsl(233, 8%, 62%);
+}
+.card-subtitle{
+    font-size: 12px;
+    color: hsl(233, 8%, 62%) !important;
+}
+.card-title{
+    font-size: 18px;
+    color: hsl(233, 26%, 24%);
+}
+.card-body{
+    margin-top: 20px;
+}
+#force{
+    margin: 10px -20px;
+}
+
+
+#latest{
+    background-color: hsl(0, 0%, 98%);
+}
+
+#latest h2{
+    margin-top: 80px;
+    font-size: 40px;
+}
+.card{
+    border: none;
+}
+
+#cardb{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 50%;
+}
+
+#cardb img{
+    height: 200px;
+}
+
+
+
+.footer{
+    background-color: hsl(233, 26%, 24%);
+    font-size: 0.95rem;
+}
+#flo{
+    margin-top: 24px;
+}
+
+#footer-lo{
+    margin: 30px auto 10px auto;
+    padding: 10px;
+    margin-left: 0px !important;
+    left: 0px !important;
+}
+
+#social-icons{
+    margin-top: 42px;
+}
+
+#ico{
+    margin: 20px 6px 20px 5px;
+    size: 1px;
+}
+
+#footer-fhalf ul,
+#footer-lhalf ul{
+    margin-top: 40px;
+}   
+
+#flist{
+    margin-left: 25px !important;
+}
+
+#flist li{
+    margin-top: 15px !important;
+}
+
+#flist li a{
+    color: #ffff;
+    text-decoration: none;
+    margin:0;
+    font-size:.9rem;
+    line-height:1.4rem
+}
+
+#flst{
+    margin: auto; 
+}
+
+#flst button{
+    margin: 40px 0 30px 0;
+}
+#flst p{
+    font-size: 0.9rem;
+    color: hsl(233, 8%, 62%);
+}
+
+.btn{
+    display:inline-block;
+    padding:10px 34px;
+    margin:16px 0;
+    font-size:.9rem;
+    font-weight:400;
+    line-height:1.6rem;
+    color:#fff;
+    text-transform:capitalize;
+    cursor:pointer;
+    background:linear-gradient(90deg, #31d35c 0%, #2bb7da 100%);
+    border-radius:25px;
+}
+.btn:hover{
+    background:linear-gradient(90deg, #83e2a3 0%, #7dd7e3 100%);
+}
+
+.attribution{
+    font-size: 0.6rem;
+    color: #fff;
+}
+
+.attribution a{
+    font-size: 0.8rem;
+    color:hsl(233, 8%, 62%);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        text-align: center;
+        overflow-x: hidden !important;
+    }
+    #navbar{
+        background-color: #ffffff;
+        z-index: 1000;
+    }
+    .markup{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    #content{
+        margin-top: -50px !important;
+    }
+    .markup img{
+        position:relative;
+        z-index:1;
+        max-width: 100%;
+        max-height: 100%;
+        margin-top:-122px;
+        margin-left: -52px;
+        background:#fafafa url("./images/bg-intro-mobile.svg") 100% 60px/100% no-repeat;
+    }
+    #choose{
+        margin-top: 10px;
+        text-align: left;
+        padding-top: 60px !important;
+    }
+    #cardx{
+        margin-top: 40px !important;
+    }
+    #card-group{
+        margin-top: 50px !important;
+    }
+    #flist{
+        display: flex;
+        flex-direction: column;
+    }
+    #flist li a{
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #flst{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    #flst p{
+        text-align: center !important;
+    }
+    .impx{
+        margin-top: -10px !important;
+    }
+    #collbtn:visited{
+        background: url('/huddle-landing-page-with-single-introductory-section-master/images/icon-close.svg');
+    }
+    #navbtn{
+        visibility: hidden;
+    }
+}

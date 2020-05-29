@@ -271,7 +271,7 @@ a{
     text-decoration: none;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     body{
         text-align: center;
         overflow-x: hidden !important;
@@ -331,9 +331,6 @@ a{
     }
     .impx{
         margin-top: -10px !important;
-    }
-    #collbtn:visited{
-        background: url('/huddle-landing-page-with-single-introductory-section-master/images/icon-close.svg');
     }
     #navbtn{
         visibility: hidden;
